@@ -1,12 +1,7 @@
 <template>
 	<div>
-		<h2>Home</h2>
-		<div class="grid grid-cols-4 gap-5">
-			<p>asd</p>
-			<p>asd</p>
-			<p>asd</p>
-			<p>asd</p>
-		</div>
+		<Hero />
+		<ImageGallery />
 	</div>
 </template>
 
