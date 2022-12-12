@@ -1,19 +1,13 @@
 <template>
 	<div>
-		<h2>Home</h2>
-		<div class="grid grid-cols-4 gap-5">
-			<p>asd</p>
-			<p>asd</p>
-			<p>asd</p>
-			<p>asd</p>
-		</div>
+		<h2>About</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, animi. Perferendis qui repudiandae numquam accusantium quia quam voluptas animi laboriosam.</p>
 	</div>
 </template>
 
 <script setup>
-// const { data: products } = await useFetch("https://fakestoreapi.com/products");
 useHead({
-	title: "Divinus Games | Home",
+	title: "Divinus Games | Contact",
 	meta: [
 		{ name: "description", content: "Divinus Games" },
 		{ name: "description", content: "Divinus Games" },
