@@ -7,7 +7,7 @@
 					We're working hard to bring you the best games you've ever played. Soon, we'll be on every platform and every game category. Stay tuned for future announcements!
 				</p>
 			</div>
-			<div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+			<div class="lg:mt-0 lg:col-span-5 lg:flex">
 				<img src="/index/banner_bg.webp" alt="mockup" />
 			</div>
 		</div>
