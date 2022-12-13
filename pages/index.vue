@@ -1,6 +1,8 @@
 <template>
 	<div>
 		<Hero />
+		<Hero2 />
+		<Hero3 />
 		<ImageGallery />
 	</div>
 </template>

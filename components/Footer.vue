@@ -1,5 +1,5 @@
 <template>
-	<footer class="p-8 bg-white sm:p-6 dark:bg-gray-800">
+	<footer class="p-8 sm:p-6 bg-gray-900">
 		<div class="container mx-auto">
 			<div class="xl:flex xl:justify-between">
 				<div class="mb-6 xl:mb-0">
