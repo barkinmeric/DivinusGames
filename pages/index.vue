@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="overflow-hidden">
 		<Hero />
 		<Hero2 />
 		<Hero3 />
