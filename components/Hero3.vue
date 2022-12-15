@@ -1,7 +1,7 @@
 <template>
-	<section class="bg-gray-900">
-		<div class="grid grid-cols-12 grid-rows-1 max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
-			<div class="my-auto col-start-2 col-end-12 row-start-1 z-20 sm:col-start-1 sm:col-end-8 place-self-center text-white text-center">
+	<section class="bg-gray-900 py-12 px-8 sm:py-16 sm:px-12">
+		<div class="grid grid-cols-12 grid-rows-1 max-w-screen-xl sm:gap-8">
+			<div class="my-auto col-start-2 col-end-12 row-start-1 z-20 sm:col-start-1 sm:col-end-8 text-white text-center">
 				<h1 data-aos="fade-right" class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">About Us</h1>
 				<p data-aos="fade-right" class="max-w-2xl font-light md:text-lg lg:text-xl">
 					We set out as three friends believing that we'll improve, expand and beautify the game industry. We hope and trust ourselves that we'll have excellent games in all categories,

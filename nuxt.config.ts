@@ -9,13 +9,11 @@ export default defineNuxtConfig({
 	app: {
 		head: {
 			title: "Divinus Games",
-			meta: [
-				{ name: "description", content: "Divinus Games" },
-				{ name: "description", content: "Divinus Games" },
-			],
+			meta: [{ name: "description", content: "Divinus Games" }],
 			link: [
 				{ rel: "stylesheet", href: "https://fonts.googleapis.com/icon?family=Material+Icons" },
 				{ rel: "stylesheet", href: "https://unpkg.com/aos@2.3.1/dist/aos.css" },
+				{ rel: "icon", href: "/favicon.png" },
 			],
 			script: [{ src: "https://unpkg.com/aos@2.3.1/dist/aos.js" }],
 		},

@@ -1,17 +1,17 @@
 <template>
-	<footer class="p-8 sm:p-6 bg-gray-900">
+	<footer class="bg-gray-900 py-12 px-8 sm:py-16 sm:px-12">
 		<div class="container mx-auto">
 			<div class="xl:flex xl:justify-between">
 				<div class="mb-6 xl:mb-0">
 					<NuxtLink href="/" class="flex items-center">
 						<img src="/logo.webp" class="mr-3 h-8" alt="Logo" />
-						<span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Divinus Games</span>
+						<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Divinus Games</span>
 					</NuxtLink>
 				</div>
 				<div class="grid grid-cols-1 sm:grid-cols-3">
 					<div class="mb-6">
-						<h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Menus</h2>
-						<ul class="text-gray-600 dark:text-gray-400">
+						<h2 class="mb-4 text-sm font-semibold uppercase text-white">Menus</h2>
+						<ul class="text-gray-400">
 							<li class="mb-4">
 								<NuxtLink to="/" class="link hover:underline">Home</NuxtLink>
 							</li>
@@ -28,8 +28,8 @@
 					</div>
 
 					<div class="mb-6">
-						<h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-						<ul class="text-gray-600 dark:text-gray-400">
+						<h2 class="mb-4 text-sm font-semibold uppercase text-white">Legal</h2>
+						<ul class="text-gray-400">
 							<li class="mb-4">
 								<a href="https://divinusgames.com/privacy-policy" class="hover:underline">Privacy Policy</a>
 							</li>
@@ -40,8 +40,8 @@
 					</div>
 
 					<div class="mb-6">
-						<h2 class="mb-4 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact Info</h2>
-						<ul class="text-gray-600 dark:text-gray-400">
+						<h2 class="mb-4 text-sm font-semibold uppercase text-white">Contact Info</h2>
+						<ul class="text-gray-400">
 							<li class="mb-4">
 								<p>Address : Istanbul, Türkiye</p>
 							</li>
@@ -52,13 +52,11 @@
 					</div>
 				</div>
 			</div>
-			<hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-			<div class="sm:flex sm:items-center sm:justify-between">
-				<span class="text-sm text-gray-500 sm:text-center dark:text-gray-400"
-					>Copyright © 2022 <a href="https://flowbite.com/" class="hover:underline">Divinus Games™</a>. All Rights Reserved.
-				</span>
-				<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-					<a href="https://facebook.com/divinusgames" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+			<hr class="mb-6 sm:mx-auto border-gray-700" />
+			<div class="sm:flex sm:items-center sm:justify-between text-center">
+				<span class="text-sm text-gray-400">Copyright © 2022 <a href="https://divinusgames.com/" class="hover:underline">Divinus Games™</a>. All Rights Reserved. </span>
+				<div class="flex mt-4 space-x-6 justify-center sm:mt-0">
+					<a href="https://facebook.com/divinusgames" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 							<path
 								fill-rule="evenodd"
@@ -68,7 +66,7 @@
 						</svg>
 						<span class="sr-only">Facebook page</span>
 					</a>
-					<a href="https://twitter.com/divinus_games" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+					<a href="https://twitter.com/divinus_games" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 							<path
 								d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
@@ -76,7 +74,7 @@
 						</svg>
 						<span class="sr-only">Twitter page</span>
 					</a>
-					<a href="https://instagram.com/divinusgames" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+					<a href="https://instagram.com/divinusgames" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
 							<path
 								fill-rule="evenodd"
@@ -86,7 +84,7 @@
 						</svg>
 						<span class="sr-only">Instagram page</span>
 					</a>
-					<a href="https://linkedin.com/company/divinus-games" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+					<a href="https://linkedin.com/company/divinus-games" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 49 49" aria-hidden="true" x="0px" y="0px">
 							<path
 								d="M5.392,0.492C2.268,0.492,0,2.647,0,5.614c0,2.966,2.223,5.119,5.284,5.119c1.588,0,2.956-0.515,3.957-1.489
@@ -105,7 +103,7 @@
 						</svg>
 						<span class="sr-only">LinkedIn account</span>
 					</a>
-					<a href="https://www.youtube.com/channel/UCUzUEGretdDmn8-O8APr8Wg" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+					<a href="https://www.youtube.com/channel/UCUzUEGretdDmn8-O8APr8Wg" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 49 49" aria-hidden="true">
 							<path
 								d="M39.256,6.5H9.744C4.371,6.5,0,10.885,0,16.274v16.451c0,5.39,4.371,9.774,9.744,9.774h29.512
@@ -120,7 +118,7 @@
 						</svg>
 						<span class="sr-only">Youtube account</span>
 					</a>
-					<a href="https://www.tiktok.com/@divinus.games" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+					<a href="https://www.tiktok.com/@divinus.games" class="text-gray-500 hover:text-white">
 						<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 256 256" aria-hidden="true">
 							<path
 								d="M224,80a52.059,52.059,0,0,1-52-52,4.0002,4.0002,0,0,0-4-4H128a4.0002,4.0002,0,0,0-4,4V156a24,24,0,1,1-34.28418-21.69238,3.99957,3.99957,0,0,0,2.28369-3.61279L92,89.05569a3.99948,3.99948,0,0,0-4.70117-3.938A72.00522,72.00522,0,1,0,172,156l-.00049-42.56348A99.27749,99.27749,0,0,0,224,128a4.0002,4.0002,0,0,0,4-4V84A4.0002,4.0002,0,0,0,224,80Zm-4,39.915a91.24721,91.24721,0,0,1-49.66455-17.1792,4.00019,4.00019,0,0,0-6.33594,3.24707L164,156A64,64,0,1,1,84,94.01223l-.00049,34.271A32.00156,32.00156,0,1,0,132,156V32h32.13184A60.09757,60.09757,0,0,0,220,87.86819Z"

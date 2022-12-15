@@ -1,6 +1,6 @@
 <template>
 	<Disclosure as="nav" class="bg-gray-800" v-slot="{ open }">
-		<div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+		<div class="mx-auto max-w-7xl px-4 sm:px-8 lg:px-12 py-2 sm:py-4">
 			<div class="relative flex h-16 items-center justify-between">
 				<div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
 					<!-- Mobile menu button-->
@@ -14,11 +14,8 @@
 				</div>
 				<div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
 					<div class="flex flex-shrink-0 items-center">
-						<NuxtLink to="/" class="block lg:hidden">
-							<img class="h-8 w-auto" src="/logo.webp" alt="Divinus Games" />
-						</NuxtLink>
-						<NuxtLink to="/" class="hidden lg:block">
-							<img class="h-8 w-auto" src="/logo.webp" alt="Divinus Games" />
+						<NuxtLink to="/">
+							<img class="h-8 sm:h-12 w-auto" src="/logo.webp" alt="Divinus Games" />
 						</NuxtLink>
 					</div>
 				</div>
