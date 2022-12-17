@@ -9,7 +9,11 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.1.3",
+    "@types/aos": "^3.0.4",
     "nuxt": "3.0.0",
     "nuxt-headlessui": "^1.0.4"
+  },
+  "dependencies": {
+    "aos": "^2.3.4"
   }
 }

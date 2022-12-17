@@ -7,6 +7,20 @@
 	</div>
 </template>
 
+<script>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+export default {
+	mounted() {
+		AOS.init();
+	},
+	unmounted() {
+		AOS.refresh();
+	},
+};
+</script>
+
 <script setup>
 useHead({
 	title: "Home | Divinus Games",
