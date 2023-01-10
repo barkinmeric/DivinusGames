@@ -8,15 +8,20 @@
 </template>
 
 <script>
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 export default {
 	mounted() {
-		AOS.init();
-	},
-	unmounted() {
-		AOS.refresh();
+		const observer = new IntersectionObserver((entries) => {
+			entries.forEach((entry) => {
+				console.log(entry);
+				if (entry.isIntersecting) {
+					entry.target.classList.add("aos-show");
+				} else {
+					entry.target.classList.remove("aos-show");
+				}
+			});
+		});
+		let hiddenElements = document.querySelectorAll(".aos-left, .aos-right, .aos-down, .aos-up, .aos-down-right, .aos-up-left, .aos-down-left, .aos-up-right");
+		hiddenElements.forEach((el) => observer.observe(el));
 	},
 };
 </script>

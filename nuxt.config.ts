@@ -2,6 +2,8 @@
 export default defineNuxtConfig({
 	modules: ["@nuxtjs/tailwindcss", "nuxt-headlessui"],
 
+	css: ["~/assets/css/aos.css"],
+
 	headlessui: {
 		prefix: "",
 	},
